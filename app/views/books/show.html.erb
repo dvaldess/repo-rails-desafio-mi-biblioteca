@@ -1,0 +1,26 @@
+<div class="container pt-4">
+  <p id="notice"><%= notice %></p>
+  <p>
+    <strong>Titulo:</strong>
+    <%= @book.title %>
+  </p>
+  <p>
+    <strong>Autor:</strong>
+    <%= @book.author %>
+  </p>
+  <p>
+    <strong>Estado:</strong>
+    <%= @book.status %>
+  </p>
+  <p>
+    <strong>Fecha de Prestamo:</strong>
+    <%= @book.borrowing_date %>
+  </p>
+  <p>
+    <strong>Fecha de Devolución:</strong>
+    <%= @book.return_date %>
+  </p>
+
+  <%= link_to 'Ir Al Inicio', root_path %>
+</div>
+
